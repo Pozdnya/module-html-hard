@@ -60,8 +60,7 @@ header {
 }
 
 .wrapper {
-    min-width: 1110px;
-    width: auto;
+    width: 1110px;
     margin: 0 auto;
 }
 
@@ -171,9 +170,8 @@ nav div .navigation a {
     text-decoration: none;
     font-family: 'Aleo';
     font-size: 14px;
-    font-weight: 100;
     color: #ffffff;
-    margin-right: 40px;
+    padding-right: 30px;
     text-transform: uppercase;
 }
 
@@ -181,4 +179,100 @@ nav div .navigation a {
     border-bottom: 2px solid #c7c5c5;
     transition: 0.5s;
     opacity: 0.5;
+}
+
+.under-nav {
+    background: url(./images/castle.png) no-repeat center top / cover;
+}
+
+.under-nav div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    align-items: flex-start;
+}
+
+.container-content h2 {
+    padding: 20px 0 50px 0;
+    font-family: 'Aleo';
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.container-content p {
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    padding: 0 0 30px 0;
+}
+
+.container-content a button {
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    width: 160px;
+    min-height: 50px;
+    background-color: #496bfe;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.container-content a {
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    text-decoration: none;
+    max-width: 160px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px;
+}
+
+.images #first-img {
+    margin-right: 100px;
+    margin-bottom: 4px;
+}
+
+.images #second-img {
+    margin-left: 100px;
+}
+
+.second-navigation {
+    min-height: 30rem;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+.second-navigation div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-navigation a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.second-navigation a img {
+    width: 40px;
+}
+
+.second-navigation a span {
+    padding-top: 1rem;
+    font-family: 'Aleo';
+    font-size: 3.6rem;
+    color: #e8e8e8;
 }
