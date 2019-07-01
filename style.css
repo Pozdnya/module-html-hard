@@ -142,6 +142,11 @@ form button span {
     align-items: center;
 }
 
+.scroll-down:hover {
+    font-size: 18px;
+    transition: 0.5s;
+}
+
 nav {
     display: flex;
     min-width: 100%;
@@ -231,6 +236,12 @@ nav div .navigation a {
     font-size: 16px;
     text-decoration: none;
     max-width: 160px;
+}
+
+.container-content a button:hover {
+    background-color: #c7c5c5;
+    transition: 0.7s;
+    opacity: 0.9;
 }
 
 .images {
@@ -345,6 +356,12 @@ nav div .navigation a {
     text-transform: uppercase;
 }
 
+.about-spain-text a button:hover {
+    background-color: #c7c5c5;
+    transition: 0.7s;
+    opacity: 0.9;
+}
+
 .tourist {
     background-image: url("./images/tourist_bg.png");
     min-width: 100%;
@@ -432,15 +449,20 @@ footer p {
     display: flex;
     flex-direction: row;
     padding-top: 20px;
-    min-width: 150px;
+    min-width: 200px;
     justify-content: space-between;
 }
 
-.socials a {
-    display: inline-block;
-    width: 30px;
+.social i {
+    font-size: 30px;
+    color: #ffffff;
 }
 
-.socials a i {
-    font-size: 30px;
+#linkedin {
+    color: #5474fd;
+}
+
+.social i:hover {
+    font-size: 35px;
+    color: #ffbcd8;
 }
