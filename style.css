@@ -173,11 +173,11 @@ nav div p {
 
 nav div .navigation a {
     text-decoration: none;
+    text-transform: uppercase;
     font-family: 'Aleo';
     font-size: 14px;
     color: #ffffff;
     margin-right: 30px;
-    text-transform: uppercase;
 }
 
 .navigation a:hover {
@@ -322,16 +322,15 @@ nav div .navigation a {
 }
 
 .about-spain-text h2 {
+    text-transform: uppercase;
     font-family: 'Josefin Sans';
     font-size: 20px;
     color: #fefefe;
     padding: 20px 0;
-    text-transform: uppercase;
 }
 
 .about-spain-text p {
     font-family: 'Josefin Sans';
-    /* font-weight: 100; */
     font-size: 16px;
     color: #e8e8e8;
     padding-bottom: 100px;
@@ -381,7 +380,7 @@ nav div .navigation a {
 
 .tourist-content h2 {
     font-family: 'Aleo';
-    font-size: 3.6rem;
+    font-size: 36px;
     color: #ffffff;
     padding: 40px 0 30px 0;
 }
